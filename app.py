@@ -11,7 +11,7 @@ import os
 st.title("AI-Based Stock Analysis and Portfolio Optimisation")
 
 # User Inputs
-tickers = st.text_input("Enter stock tickers (comma-separated, e.g., TSLA, AAPL, MSFT):", "TSLA, AAPL")
+tickers = st.text_input("Enter stock tickers (comma-separated, e.g., TSLA, AAPL, MSFT):", "")
 tickers = [ticker.strip().upper() for ticker in tickers.split(",")]
 
 start_date = st.date_input("Start Date:", value=pd.to_datetime("2024-01-01"))
