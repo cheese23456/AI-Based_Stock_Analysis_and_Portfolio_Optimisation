@@ -1,0 +1,15 @@
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore environment files
+*.venv
+*.env
+
+# Ignore Streamlit secrets file
+.streamlit/secrets.toml
+
+# Ignore Git metadata (optional)
+.git/
+
+# Ignore logs and temporary files
+*.log
