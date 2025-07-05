@@ -8,7 +8,7 @@ from portfolio_optimiser import optimize_portfolio
 import os
 
 # Streamlit UI
-st.title("AI-Based Stock Analysis and Portfolio Optimisation")
+st.title("AI-Powered Stock Analysis and Portfolio Optimisation Tool")
 
 # User Inputs
 tickers = st.text_input("Enter stock tickers (comma-separated, e.g., TSLA, AAPL, MSFT):", "")
