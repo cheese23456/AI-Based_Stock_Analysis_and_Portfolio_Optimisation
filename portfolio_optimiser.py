@@ -14,7 +14,7 @@ def optimize_portfolio(data, risk_tolerance):
         dict: Dictionary containing optimized asset weights for a diversified portfolio.
     """
     try:
-        # ✅ Calculate daily returns & covariance matrix
+        # Calculate daily returns & covariance matrix
         returns = data.pct_change().dropna()
         mean_returns = returns.mean()
         cov_matrix = returns.cov()
@@ -22,19 +22,19 @@ def optimize_portfolio(data, risk_tolerance):
         num_assets = len(mean_returns)
         risk_free_rate = 0.01  # Example: Assume a 1% risk-free rate
 
-        # 📌 **Objective Function: Maximize Sharpe Ratio**
+        # Objective Function: Maximize Sharpe Ratio
         def negative_sharpe_ratio(weights):
             portfolio_return = np.sum(mean_returns * weights)
             portfolio_std_dev = np.sqrt(np.dot(weights.T, np.dot(cov_matrix, weights)))
             sharpe_ratio = (portfolio_return - risk_free_rate) / portfolio_std_dev
-            return -sharpe_ratio  # Negative because we minimize in SciPy
+            return -sharpe_ratio
 
-        # 📌 **Constraints:**
+        # Constraints:
         constraints = [
             {"type": "eq", "fun": lambda x: np.sum(x) - 1},  # Sum of weights must be 1
         ]
 
-        # 📌 **Set Diversification Constraints**
+        # Set Diversification Constraints
         max_allocation = 0.50  # Max 50% allocation per asset
         min_assets_allocated = 2  # At least 2 assets must have nonzero allocation
 
@@ -43,13 +43,13 @@ def optimize_portfolio(data, risk_tolerance):
 
         constraints.append({"type": "ineq", "fun": diversification_constraint})
 
-        # 📌 **Set Bounds (Per-Asset Allocation Limits)**
+        # Set Bounds (Per-Asset Allocation Limits)
         bounds = tuple((0.05, max_allocation) for _ in range(num_assets))  # Min 5%, Max 50%
 
-        # 📌 **Initialize Equal Weights**
+        # Initialise Equal Weights
         initial_weights = np.array([1 / num_assets] * num_assets)
 
-        # 📌 **Optimize Portfolio Allocation**
+        # Optimise Portfolio Allocation
         optimized_results = minimize(
             negative_sharpe_ratio,
             initial_weights,
@@ -58,7 +58,7 @@ def optimize_portfolio(data, risk_tolerance):
             constraints=constraints,
         )
 
-        # ✅ Extract Optimal Weights
+        # Extract Optimal Weights
         asset_weights = dict(zip(data.columns, optimized_results.x))
         return asset_weights
 
