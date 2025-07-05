@@ -32,7 +32,7 @@ def calculate_and_return_everything(data):
     if indicator_data is None:
         st.stop()
 
-    # **AI Insights**
+    # AI Insights
     st.subheader("💡 AI Insights")
     last_row = indicator_data.iloc[-1]
 
@@ -70,7 +70,7 @@ if st.button("Analyse"):
         st.warning("No valid data available for any of the tickers. Exiting analysis.")
         st.stop()
 
-    # 📌 **Portfolio Optimisation**
+    # Portfolio Optimisation
     st.subheader("Portfolio Optimisation")
 
     # Extract closing prices for portfolio optimization
