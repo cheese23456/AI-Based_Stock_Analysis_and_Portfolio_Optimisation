@@ -5,6 +5,7 @@ from data_loader import load_data
 from indicators import calculate_indicators
 from ai_insights import get_ai_insight
 from portfolio_optimiser import optimize_portfolio
+from investment_signal import get_investment_signal
 import os
 
 # Streamlit UI
@@ -58,12 +59,22 @@ def calculate_and_return_everything(data):
     lower_bb = float(last_row['Lower_BB'])
     upper_bb = float(last_row['Upper_BB'])
 
-    st.write(f"Moving Average Value: {ma}")
-    st.write(f"Closing Price: {close_price}")
-    st.write(f"Lower Bollinger Band: {lower_bb}")
-    st.write(f"Upper Bollinger Band: {upper_bb}")
-    st.write(f"RSI Value: {rsi}")
-    st.write(f"MACD Value: {macd}")
+    signal, reason = get_investment_signal(
+        ma=ma,
+        close_price=close_price,
+        rsi=rsi,
+        macd=macd,
+        lower_band=lower_bb,
+        upper_band=upper_bb
+    )
+
+    st.subheader("Investment Signal")
+    if signal == "Buy":
+        st.success(f"**Recommendation: {signal}** — {reason}")
+    elif signal == "Sell":
+        st.error(f"**Recommendation: {signal}** — {reason}")
+    else:
+        st.warning(f"**Recommendation: {signal}** — {reason}")
 
     
     return indicator_data
