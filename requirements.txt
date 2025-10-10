@@ -1,7 +1,7 @@
 streamlit
 yfinance
 pandas
-numpy==1.23.5  # ✅ Use an older version compatible with pandas-ta
+numpy==1.23.5
 scipy
 plotly
 openai
