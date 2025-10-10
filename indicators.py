@@ -1,5 +1,4 @@
 import pandas as pd
-import pandas_ta as ta
 import plotly.graph_objects as go
 import streamlit as st
 from ai_insights import get_ai_insight
