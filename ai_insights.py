@@ -1,6 +1,4 @@
 import openai
-import streamlit as st
-import os
 
 def get_ai_insight(indicator_name, indicator_value, api_key):
     """
