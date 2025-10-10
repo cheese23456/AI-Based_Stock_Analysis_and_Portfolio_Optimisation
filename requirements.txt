@@ -5,4 +5,3 @@ numpy==1.23.5  # ✅ Use an older version compatible with pandas-ta
 scipy
 plotly
 openai
-pandas-ta
