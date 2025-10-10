@@ -49,6 +49,21 @@ def calculate_and_return_everything(data):
     st.write(f"RSI: {rsi_insight}")
     st.write(f"MACD: {macd_insight}")
 
+    # ---- Investment Signal (clear signage) ----
+    ma = float(last_row['MA'])
+    close_price = float(last_row['Close'])
+    rsi = float(last_row['RSI'])
+    macd = float(last_row['MACD'])
+    lower_bb = float(last_row['Lower_BB'])
+    upper_bb = float(last_row['Upper_BB'])
+
+    st.write(f"Moving Average Value: {ma}")
+    st.write(f"Closing Price: {close_price}")
+    st.write(f"Lower Bollinger Band: {lower_bb}")
+    st.write(f"Upper Bollinger Band: {upper_bb}")
+    st.write(f"RSI Value: {rsi}")
+    st.write(f"MACD Value: {macd}")
+
     return indicator_data
 
 
